@@ -1,0 +1,5 @@
+in Visual Studio Code, in the 04-containers folder, open rest-test.cmd and edit the curl command it contains (shown below), replacing <your_ACI_IP_address_or_FQDN> with the IP address or FQDN for your container.
+
+curl -X POST "http://<your_ACI_IP_address_or_FQDN>:5000/text/analytics/v3.0/languages?" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'Hello world.'},{'id':2,'text':'Salut tout le monde.'}]}"
+
+curl -X POST "http://20.53.95.127:5000/text/analytics/v3.0/languages?" -H "Content-Type: application/json" --data-ascii "{'documents':[{'id':1,'text':'Hello world.'},{'id':2,'text':'Salut tout le monde.'}]}"

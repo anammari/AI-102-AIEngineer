@@ -3,15 +3,20 @@
     "description": "Skillset for document extraction",
     "cognitiveServices": {
         "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+<<<<<<< Updated upstream
         "description": "Azure AI services",
         "key": "YOUR_AI_SERVICES_KEY"
+=======
+        "description": "cognitive services",
+        "key": "08a4207c02414d6a9aae0cdebe82bd19"
+>>>>>>> Stashed changes
       },
     "skills": [
       {
         "name": "get-top-words",
         "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
         "description": "custom skill to get top 10 most frequent words",
-        "uri": "YOUR_FUNCTION_APP_URL",
+        "uri": "https://fn-app-srch-ai102.azurewebsites.net/api/wordcount?code=nh92T8pd0647yTnK_ipOD1OvLazt4WSQ4IO8E0BxD_jDAzFuXTcdFw==",
         "batchSize":1,
         "context": "/document",
         "inputs": [

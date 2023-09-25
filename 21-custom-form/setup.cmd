@@ -2,10 +2,17 @@
 SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem Set variable values 
+<<<<<<< Updated upstream
 set subscription_id=YOUR_SUBSCRIPTION_ID
 set resource_group=YOUR_RESOURCE_GROUP
 set location=YOUR_LOCATION_NAME
 set expiry_date=2024-01-01T00:00:00Z
+=======
+set subscription_id=ba4bc893-505c-418b-ade3-ab84b9d3c233
+set resource_group=ai102-res-grp
+set location=australiaeast
+set expiry_date=2023-01-01T00:00:00Z
+>>>>>>> Stashed changes
 
 rem Get random numbers to create unique resource names
 set unique_id=!random!!random!

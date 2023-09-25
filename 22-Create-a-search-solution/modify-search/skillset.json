@@ -3,8 +3,13 @@
     "description": "Skillset for document extraction",
     "cognitiveServices": {
         "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+<<<<<<< Updated upstream
         "description": "Azure AI services",
         "key": "YOUR_COGNITIVE_SERVICES_KEY"
+=======
+        "description": "cognitive services",
+        "key": "08a4207c02414d6a9aae0cdebe82bd19"
+>>>>>>> Stashed changes
       },
     "skills": [
       {

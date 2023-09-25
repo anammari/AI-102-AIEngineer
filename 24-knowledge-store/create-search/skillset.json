@@ -3,8 +3,13 @@
     "description": "Skillset for document extraction",
     "cognitiveServices": {
         "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+<<<<<<< Updated upstream
         "description": "Azure AI services",
         "key": "YOUR_AI_SERVICES_KEY"
+=======
+        "description": "cognitive services",
+        "key": "08a4207c02414d6a9aae0cdebe82bd19"
+>>>>>>> Stashed changes
       },
     "skills": [
       {
@@ -259,7 +264,7 @@
         }
     ],
     "knowledgeStore": { 
-      "storageConnectionString": "YOUR_CONNECTION_STRING", 
+      "storageConnectionString": "DefaultEndpointsProtocol=https;AccountName=ai102form272521956;AccountKey=7QAB55G9Z75oVvJ9b6CL93R+AKgFqfOMOpCrzTrF9pg1Bg04VCPxzniR0gGgWvUmPsVmUbfJ7kH8+AStKasBug==;EndpointSuffix=core.windows.net", 
       "projections": [
           {
               "objects": [

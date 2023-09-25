@@ -1,0 +1,24 @@
+[import](common.lg)
+
+# TextInput_Prompt_scDWez_text()
+- Enter your city
+# SendActivity_2gD3kE()
+[ThumbnailCard
+    title = Weather for ${dialog.city}
+    text = ${dialog.weather} (${dialog.temp}&deg;)
+    image = http://openweathermap.org/img/w/${dialog.icon}.png
+]
+# SendActivity_2gD3kE_text()
+- The weather in ${dialog.city} is ${dialog.weather} and the temperature is ${dialog.temp}&deg;.
+# SendActivity_WyZq9G()
+[Activity
+    Text = ${SendActivity_WyZq9G_text()}
+]
+
+# SendActivity_WyZq9G_text()
+- I got an error: ${dialog.api_response.content.message}.
+# TextInput_Prompt_scDWez()
+[Activity    
+    Text = Enter your city.
+    SuggestedActions = Cancel
+]

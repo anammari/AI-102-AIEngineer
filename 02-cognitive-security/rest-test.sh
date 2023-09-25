@@ -1,0 +1,1 @@
+curl -X POST "https://ahm-amm-gntv-srv.cognitiveservices.azure.com/text/analytics/v3.1/languages?" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: 08a4207c02414d6a9aae0cdebe82bd19" --data-ascii "{'documents':[{'id':1,'text':'bonsoir'}]}"
